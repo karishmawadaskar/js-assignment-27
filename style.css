@@ -1,0 +1,170 @@
+body {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box {
+    margin-left: 30px;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px 0 0 5px;
+    border-color: skyblue 1px solid;
+}
+
+.search-botton {
+    height: 30px;
+    width: 50px;
+    background-color: skyblue;
+    border-radius: 0 5px 5px 0;
+}
+
+.btn {
+    color: black;
+    margin-left: 40px;
+    height: 25px;
+    background-color: none;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+
+.header-ul {
+    display: flex;
+    margin-right: 20px;
+    color: white;
+}
+
+.header-ul-li {
+    margin-left: 15px;
+}
+
+.container {
+
+    margin: 0 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.categories {
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.img-ctg {
+    border: 3px solid #e0ebeb;
+    border-radius: 50%;
+    padding: 10px;
+    height: 120px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    background-color: #2d2e33;
+    padding: 40px 5%;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-col {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    margin-right: 5px;
+    width: 24%;
+
+}
+
+.footer-col h4 {
+    position: static;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #f1bc0d;
+    text-transform: capitalize;
+}
+
+ul li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+ul li a {
+    display: block;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #bdb6b6;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+ul li :hover {
+    color: white;
+    padding-left: 2px;
+}
+
+.links a {
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    color: white;
+    background-color: rgba(40, 130, 214, 0.8);
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.links a:hover {
+    color: #4d4f55;
+    background-color: white;
+}
+
+ul img {
+    height: 70px;
+    background-color: #4d4f55;
+    color: white;
+    border-radius: 50%;
+
+}
+
+.footer-logo {
+    height: 50px;
+    background-color: rgba(40, 130, 214, 0.8);
+    border-radius: 50%;
+}
+
+.footer-con-logo {
+    height: 25px;
+    border-radius: 20px;
+}
